@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@plugin "daisyui";
+body {
+  background-color: #111827; /* Dark mode background */
+  color: white; /* Light text for contrast */
+}

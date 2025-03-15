@@ -11,7 +11,7 @@ function Nav({setCategory}) {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><a onClick={()=>setCategory("technology")}>Technology</a></li>
+        <li><b><a onClick={()=>setCategory("technology")}>Technology</a></b></li>
         <li><a onClick={()=>setCategory("business")}>Business</a></li>
         <li><a onClick={()=>setCategory("health")}>Health</a></li>
         <li><a onClick={()=>setCategory("sports")}>Sports</a></li>
